@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://hai123xz.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -81,4 +81,4 @@ I used an AI assistant to help review the README template and organize the proje
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Hai123xz](https://www.frontendmentor.io/profile/Hai123xz)
