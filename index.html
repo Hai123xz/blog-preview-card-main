@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Blog preview card</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            @font-face {
+                font-family: "Figtree";
+                src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+            }
+        
+            body {
+                background: hsl(47, 88%, 63%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                font-family: 'Figtree';
+            }
+            .blog-card {
+                background: hsl(0, 0%, 100%);
+                max-width: 24rem;
+                width: 90%;
+                border-radius: 20px;
+
+                padding: 25px;
+                border: 2px solid black;
+                box-shadow: 8px 8px 0px black;
+            }
+            .illustration {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            .tag {
+                padding: 5px 10px;
+                background-color: hsl(47, 88%, 63%);
+                display: inline-block;
+                font-weight: 800;
+                border-radius: 5px;
+                font-size: 16px;
+                margin-bottom: 17px;
+            }
+            .date{
+                font-weight: 500;
+            }
+            .title{
+                font-size: 25px;
+                max-width: 90%;
+            }
+            .title:hover {
+                color: hsl(47, 88%, 63%);
+            }
+            .summary {
+                color: hsl(0, 0%, 42%);
+                font-size: 16px;
+                max-width: 90%;
+                line-height: 25px;
+            }
+            .author {
+                display: flex;
+                align-items: center;
+            }
+            .author-avatar{
+                width: 40px;
+                height: 40px;
+            }
+            .author-name {
+                font-weight: 800;
+                font-size: 16px;
+                margin-inline: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="blog-card">
+            <img
+                src="./assets/images/illustration-article.svg"
+                class="illustration"
+                alt="Illustration"
+            />
+            <div class="tag">
+                Learning
+            </div>
+            <div class="date">Published 21 Dec 2023</div>
+            <article class="main-paragraph">
+                <h1 class="title">HTML & CSS foundations</h1>
+                <p class="summary">
+                    These languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                </p>
+            </article>
+            <div class="author">
+                <img
+                    src="./assets/images/image-avatar.webp"
+                    class="author-avatar"
+                    alt="Author-avatar"
+                />
+                <p class="author-name">Greg Hooper</p>
+            </div>
+        </main>
+    </body>
+</html>
